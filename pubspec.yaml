@@ -1,0 +1,26 @@
+name: map_test
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  yandex_maps_mapkit: ^4.9.0-beta
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets: 
+    - assets/place_mark.png
+    - assets/bigMark.png
+    - assets/ball_place_mark.png
